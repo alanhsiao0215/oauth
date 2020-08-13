@@ -1,2 +1,2 @@
 # oauth
-For google  response
+For google response.
