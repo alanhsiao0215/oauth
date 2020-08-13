@@ -8,17 +8,13 @@
     <h1>我是 Alan Hsiao</h1>
     <script type="text/javascript">
       
-      alert ('Please enter your name!');
-
-      var LocString=String(window.document.location.href);
+    var LocString=String(window.document.location.href);
     function GetQueryString(str){
     var rs=new RegExp("(^|)"+str+"=([^\&]*)(\&|$)","gi").exec(LocString),tmp;
     if(tmp=rs)return tmp[2];
     return "沒有這個參數";
     }
-    alert("日記編號："+GetQueryString("log_id"));
-    alert("分類編號："+GetQueryString("cat_id"));
-    alert("所在頁數："+GetQueryString("page"));
+    alert("日記編號："+GetQueryString("approvalCode"));
 
     </script>   
   </body>
